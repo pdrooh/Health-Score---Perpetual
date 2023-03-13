@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin: 0%;
+    list-style: none;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #12062b 0%, #6924e1 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 20px 20px;
+    max-width: 700px;
+    overflow: hidden;
+}
+
+.container-title{
+    display: flex;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    justify-content: space-between;
+}
+
+.container-title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    margin-top: 5px;
+    width: 30px;
+    background: linear-gradient(135deg, #71b7e6,#9b59b6);
+}
+
+.logo{
+    width: 20%;
+    padding: 5px;
+     
+}
+
+.form-control label{
+    display: inline-block;
+    margin: 22px 0px 0px;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    display: flex;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.form-control{
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.form-text{
+    display: flex; 
+    flex-direction: column;
+    
+}   
+
+.main-select{
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    position: absolute;
+    padding: 1px;
+    font-size: 16px;
+}
+
+.button{
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 1px 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: none;
+    background: linear-gradient(135deg, #160932 0%, #6924e1 100%);
+}
+
+.button:hover{
+    background: linear-gradient(-135deg, #160932 0%, #6924e1 100%);
+    
+
+}
+
+.text{
+    font-size: 22px;
+}
+
+
+.form-text textarea{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.date{
+    border-radius: 5px;
+    padding: 2px;
+    margin: 15px 0px 5px;
+    
+}
+
